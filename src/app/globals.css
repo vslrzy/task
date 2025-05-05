@@ -1,3 +1,39 @@
+/* Font family */
+/* DEWI */
+@font-face {
+  font-family: "Dewi";
+  src: url("/fonts/dewi/regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Dewi";
+  src: url("/fonts/dewi/semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+/* neue */
+@font-face {
+  font-family: "Neue";
+  src: url("/fonts/neue/light.woff2") format("woff2");
+  font-weight: light;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue";
+  src: url("/fonts/neue/regular.woff2") format("woff2");
+  font-weight: regular;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue";
+  src: url("/fonts/neue/ultrabold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+/* Font family */
+
 @import "tailwindcss";
 
 /* Variables */
@@ -6,4 +42,9 @@
   --container-1680: 1680px;
   /* color */
   --color-eee: #f5f5f7;
+  --color-ggg: #e0dfdf;
+  --color-yellow: #f7d000;
+  /* font family */
+  --font-dewi: "Dewi";
+  --font-neue: "Neue";
 }
