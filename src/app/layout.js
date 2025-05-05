@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="font-dewi">
         <Header />
-        <main className="max-w-1680 mx-auto">{children}</main>
+        <main className="max-w-1680 mx-auto mt-20 px-[80px]">{children}</main>
         <Footer />
       </body>
     </html>

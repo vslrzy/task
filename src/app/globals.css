@@ -32,9 +32,33 @@
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "font1";
+  src: url("/fonts/font1.woff2") format("woff2");
+  font-weight: regular;
+  font-style: normal;
+}
+@font-face {
+  font-family: "font2";
+  src: url("/fonts/font2.woff2") format("woff2");
+  font-weight: regular;
+  font-style: normal;
+}
+
 /* Font family */
 
 @import "tailwindcss";
+
+/* Animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 /* Variables */
 @theme {
@@ -47,4 +71,27 @@
   /* font family */
   --font-dewi: "Dewi";
   --font-neue: "Neue";
+  --font-font1: "font1";
+  --font-font2: "font2";
+  /* font-size */
+  --text-pageTitle: 72px;
+}
+
+/* Animate class */
+.animate-spinner {
+  animation: spin 10s linear infinite;
+}
+
+.animate-stop {
+  animation: none;
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 0 0 35%;
+}
+
+.menu {
+  position: sticky;
+  top: 0;
 }
