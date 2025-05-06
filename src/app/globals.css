@@ -75,6 +75,11 @@
   --font-font2: "font2";
   /* font-size */
   --text-pageTitle: 72px;
+  /* breakpoints */
+  --breakpoint-1280: 1280px;
+  --breakpoint-1000: 1000px;
+  --breakpoint-760: 760px;
+  --breakpoint-450: 490px;
 }
 
 /* Animate class */
@@ -89,9 +94,33 @@
 /* Sidebar */
 .sidebar {
   flex: 0 0 35%;
+  @media (max-width: 1000px) {
+    flex: 100%;
+  }
 }
 
 .menu {
   position: sticky;
-  top: 0;
+  top: 20px;
+}
+
+iframe.rounded-xl {
+  height: 500px;
+  @media (max-width: 1280px) {
+    height: 350px;
+  }
+  @media (max-width: 760px) {
+    height: 300px;
+  }
+  @media (max-width: 490px) {
+    height: 210px;
+  }
+}
+
+.nobreak {
+  white-space: nowrap;
+}
+
+a.active {
+  color: #000;
 }

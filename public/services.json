@@ -1,0 +1,373 @@
+[
+  {
+    "parent_id": 1,
+    "tab": "4",
+    "title": "Proqram Təminatı",
+    "content_1": "BIRainy şirkətlərin istəklərinə uyğun olaraq proqram təminatı hazırlayır. Proqramın son trendlərə və interfeysinin rahat istifadəyə uyğun olması əsas üstünlüyümüzdür.",
+    "content_2": "Müxtəlif sistemlər və mobil tətbiqlər, OCR əsaslı Sürətli Axtarış Sistemi, Telegram Bot-lar sayəsində şirkətlər müştəri əlaqələrinin gücləndirilməsinə, şirkət daxilindəki əməkdaşlar arasındakı işlərin idarə edilməsinə, prosesin sürətləndirilə və manuallığın azalıb avtomatlaşdırılmış formada həyata keçirilməsinə nail olurlar.",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "single_image": "https://birainy.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsoftware_image.fe49776b.png&w=1920&q=75"
+  },
+  {
+    "parent_id": 1,
+    "tab": "1",
+    "title": "Sürətli Axtarış Sistemi",
+    "content_1": "Şirkətdaxili və xarici proseslərin həyata keçirilməsi, həmçinin əməkdaşların şirkət daxilindəki sənədləri avtomatlaşdırılmış şəkildə axtarış edib, rahatlıqla yerləşdirib, toplaya və göndərə bildikləri OCR alqoritmi ilə hazırlanmış Sürətli Axtarış Sistemi.",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "video": "<iframe class=\"rounded-xl\" width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/YRTe_sJd_2A\" title=\"OCR əsaslı Sürətli Axtarış Sistemi\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+  },
+  {
+    "parent_id": 1,
+    "tab": "2",
+    "title": "CRM və ERP",
+    "list_1": {
+      "title": "CRM sistemi ilə şirkətlərin qazandığı üstünlüklər:",
+      "list": [
+        "Rutin tapşırıqların avtomatlaşdırılması;",
+        "Müştərilərin davranışı haqqında anlayışlar;",
+        "Müştəriləri ilə güclü, davamlı əlaqələr qurmaq üçün qarşılıqlı əlaqələr."
+      ]
+    },
+    "list_2": {
+      "title": "ERP sistemi şirkətlər üçün təmin edir:",
+      "list": [
+        "Əsas biznes proseslərini mərkəzləşdirilmiş şəkildə idarə olunmasını;",
+        "Dəqiq və real vaxt rejimində məlumatı;",
+        "Məhsuldarlığın və səmərəliliyin yüksəldilməsini;",
+        "Əməliyyat xərclərinin azaldılmasını."
+      ]
+    },
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "video": "<iframe  class=\"rounded-xl\" width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/qUpIJZT0V4A\" title=\"ERP Sistem\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "content_after_video_1": "Həmçinin ERP sistemi əməliyyatları avtomatlaşdırmağa, qərar qəbul etməyi təkmilləşdirməyə və rəqabət üstünlüyü əldə etməyə kömək edir.",
+    "content_after_video_2": "BIRainy sizin üçün sektor, sistem və fəaliyyətin çətinlik dərəcəsinə fərq qoymadan istənilən formatda ERP sistemi hazırlayır."
+  },
+  {
+    "parent_id": 1,
+    "tab": "3",
+    "title": "Mobil tətbiqlər",
+    "content_1": "Müştərilərin tələblərinə uyğun olaraq son trendlərə əsaslanaraq mobil tətbiq UX/UI dizaynerlər tərəfindən istifadəçi üçün rahat və gözoxşayan şəkildə dizayn edilir. Dizayna əsasən də müxtəlif proqramlaşdırma dilləri və kitabxanası ilə ən yeni texnologiyalardan istifadə edərək kodlaşdırılır. Yazdığımız mobil tətbiqlər həm IoS, həm də Android əməliyyat sistemində dəstəklənə bilir.",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "single_image": "https://birainy.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmobile_image.0b1c479c.png&w=1920&q=75"
+  },
+  {
+    "parent_id": 2,
+    "title": "Saytların yaradılması",
+    "content_1": "Şirkətlərin vizyonuna uyğun olaraq sayt hazırlayırıq. Sayt trendə uyğun olaraq dizaynerlərimiz tərəfindən dizayn edilir. HTML5, CSS, JS (react js., vue js., angular js.) kimi proqramlaşdırma dilləri ilə son texnologiyalardan istifadə edərək piksel dəqiqliyində kodlaşdırılıb müxtəlif ölçülü mobil və digər cihazlara uyğunlaşdırılır. Sonda qurulmuş sayt üçün sistem arxitekturası yaradılır və maksimum sürətli işləməsi təmin edilir.",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "sections": [
+      {
+        "title": "UI/UX dizayn",
+        "content": "Şirkətin vizyonuna uyğun son trendlərə əsaslanan istifadəçi interfeysinin dizayn edilməsi.",
+        "image": "https://birainy.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fui-ux_website.5edfbcce.png&w=750&q=75"
+      },
+      {
+        "title": "Mobil Optimizasiya",
+        "content": "Vebsaytın müxtəlif ölçülü mobil cihazlara uyğunlaşdırılması.",
+        "image": "https://birainy.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Foptimization_website.afecd01d.png&w=828&q=75"
+      },
+      {
+        "title": "Front-end",
+        "content": "Dizaynların HTML, CSS, JS kimi müxtəlif proqramlaşdırma dilləri ilə piksel dəqiqliyində kodlaşdırılması.",
+        "image": "https://birainy.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffront_website.1f5d4502.png&w=640&q=75"
+      },
+      {
+        "title": "Back-end",
+        "content": "Sistem arxitekturasının yaradılması və maksimum sürətli işləməsinin təmin edilməsi.",
+        "image": "https://birainy.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbackend_website.9929a634.png&w=640&q=75"
+      },
+      {
+        "title": "Kiber Təhlükəsizlik",
+        "content": "Sistemlərin, şəbəkələrin, proqramların, cihazların və məlumatların kiberhücumlardan qorunması.",
+        "image": "https://birainy.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcyber_website.383096f4.png&w=828&q=75"
+      },
+      {
+        "title": "SEO",
+        "content": "Saytların keywordlərə uyğun axtarış sistemlərində ilk sıralarda görünməsini təmin etmək.",
+        "image": "https://birainy.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fseo_website.2c0f00f9.png&w=750&q=75"
+      }
+    ]
+  },
+  {
+    "parent_id": 3,
+    "tab": "1",
+    "title": "Oyun Təminatı",
+    "content_1": "Şirkətin fəaliyyət göstərdiyi istiqamətə, istehsal etdiyi məhsullara uyğun olaraq oyun ssenarisi hazırlanır, son trendlərə əsaslanaraq dizayn olunur və oyun developerləri tərəfindən 2D və 3D formatında oyunlar yazılır. Oyunun növünə uyğun assetlərdən istifadə edilir.",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "single_image": "https://birainy.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgame_service.5e1e7450.png&w=1920&q=75"
+  },
+  {
+    "parent_id": 3,
+    "tab": "2",
+    "title": "Stend və VR oyunları",
+    "content_1": "BIRainy şirkəti şirkətlərin istəyinə və istifadə edəcəkləri istiqamətə uyğun olaraq özlərinə məxsus elementlərin, logonun da yer aldığı və müştərilərinin endirimlər qazanaraq əylənə bilmələri üçün stend və VR oyunlar yazır.",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "list_1": {
+      "title": "Stend və VR oyunları event, forumlar, tədbirlər, açılışlarda şirkətə qazandırır:",
+      "list": [
+        "Müştərilərin diqqətini 1-ə 5 artırmaq;",
+        "Müştərilərin hansısa konkret məhsula (məhsullara) daha çox diqqət və maraq göstərməsini təmin etmək;",
+        "Tədbirlərin əyləncə hissəsini daha maraqlı və aktiv hala gətirmək;",
+        "Orqanik reklam yaratmaq."
+      ]
+    },
+    "video": "<iframe  class=\"rounded-xl\" width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/NAiTQcoDT0o\" title=\"IAC 2023 - Low Gravity and Virtual Reality Device\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+  },
+  {
+    "parent_id": 3,
+    "tab": "3",
+    "title": "Veb oyunlar",
+    "content_1": "İstifadəçinin uzun müddət veb-saytda qalması və axtarış sistemində biznes veb-saytlarının təbii yollarla artımını təmin etmək üçün veb oyunların yazılması",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "list_1": {
+      "list": [
+        "Axtarış sistemində biznes veb-saytlarının təbii yollarla artımını təmin edir;",
+        "Sayta daxil olan şəxslərin saytda daha çox vaxt keçirməsini təmin edir;",
+        "Saytın aktivliyini artırır və trafik axınını təmin edir;",
+        "Axtarış motorlarında saytın ön sıralarda görünməsini təmin edir."
+      ]
+    },
+    "video": "<iframe  class=\"rounded-xl\" width=\"100%\" height=\"100%\" src=\"https://game.birainy.com\" title=\"YouTube video player\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe>"
+  },
+  {
+    "parent_id": 3,
+    "tab": "4",
+    "title": "VR simulyatorlar",
+    "content_1": "BIRainy tərəfindən şirkətlərin istəklərinə uyğun olaraq VR simulyatorlar yazılır və hololens, ocolus kimi VR eynəklərlə təmin edilir.",
+    "accordion": [
+      {
+        "title": "Satış",
+        "body": "Texnologiya sektoru, məişət avadanlıqları mağazalarında müştərilərin virtual olaraq məhsulu sınaqdan keçirməsi"
+      },
+      {
+        "title": "VR öyrənmə simulyatorları",
+        "body": "Təcrübəçilərin praktiki biliklərinin VR simulatorlar ilə artırılması"
+      },
+      {
+        "title": "Muzey",
+        "body": "Sənət əsərlərinə, tarixi hadisə və şəxsiyyətlərin həyatına səyahət edilməsi"
+      },
+      {
+        "title": "Virtual Turizm",
+        "body": "Turistlərin və ya sərnişinlərin virtual olaraq öncədən gedəcəyi yeri və oteli səyahət etməsi"
+      },
+      {
+        "title": "İnşaat",
+        "body": "VR texnologiyası ilə bina haqqında məlumatların əks etdirilməsi və binanın ətrafında 360° gəzməyin təmin edilməsi"
+      },
+      {
+        "title": "İstehsalat",
+        "body": "Montaj xəttinin konfiqurasiyalarını, istehsaldakı prosesləri simulyasiya edərək potensial təhlükəli vəziyyətlərin aşkarlanması"
+      }
+    ],
+    "video": "<iframe class=\"rounded-xl\" width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/UjkdWji87Nw\" title=\"VR simulyatorlar\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+  },
+  {
+    "parent_id": 3,
+    "tab": "5",
+    "title": "Oyun monitoru kirayəsi",
+    "content_1": "Təqdim etdiyimiz stend oyunlarla birgə monitorları da kirayələmək mümkündür.",
+    "video": "<iframe width=\"100%\" class=\"rounded-xl\" height=\"100%\" src=\"https://www.youtube.com/embed/mGGKKrV1OJE\" title=\"Stend oyun + monitor\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "specifications": [
+      {
+        "title": "Ekran dioqanalı",
+        "value": "139sm (55”)"
+      },
+      {
+        "title": "Gövdəsi",
+        "value": "Dəmir karkas"
+      },
+      {
+        "title": "Monitor",
+        "value": "Anti-vandal şüşə, qoruyucu ekran və touch sensor panel"
+      }
+    ]
+  },
+  {
+    "parent_id": 4,
+    "tab": "1",
+    "title": "Data analitikası",
+    "content_1": "BIRainy MMC tərəfindən şirkətin dataları bütün mənbələrdən müxtəlif formatlarda toplandıqdan sonra təmizlənir. Təmizlənmiş datalar qrafiklərlə vizuallaşdırılır və analiz olunduqdan sonra biznes yönümlü analitik həllər şirkətə təklif edilir. Son mərhələdə hazırlanmış dashboard-larda şirkət real vaxt rejimində yeni datalara əsasən məlumatları da görə bilir.",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "single_image": "https://birainy.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdata.378c19ff.png&w=1920&q=75"
+  },
+  {
+    "parent_id": 4,
+    "tab": "2",
+    "title": "Maliyyə təhlili",
+    "list_1": {
+      "title": "Maliyyə təhlili şirkətin və ya təşkilatın maliyyə vəziyyətini qiymətləndirmək üçün:",
+      "list": [
+        "Onun maliyyə hesabatlarını",
+        "Mənfəət və zərər hesabatlarını",
+        "Pulun dövriyyəsi haqqında hesabatları yoxlamağı əhatə edir."
+      ]
+    },
+    "content_1": "Bu təhlilin məqsədi şirkətin gəlirliliyini, likvidliyini və ödəmə qabiliyyətini qiymətləndirmək, əsaslandırılmış investisiya və ya kredit qərarları qəbul etməkdir.",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "video": "<iframe class=\"rounded-xl\" width=\"100%\" height=\"100%\" src=\"https://app.powerbi.com/view?r=eyJrIjoiODNiZWQyMmUtMDk3OC00OTQ1LWIyYWYtZmY1MWNkZDhhMWYwIiwidCI6IjQ1ZTcyYmQ4LWVmYjctNGFlMS04M2IzLTI4NGFmNzBmMGM1OSIsImMiOjl9\" title=\"YouTube video player\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe>"
+  },
+  {
+    "parent_id": 4,
+    "tab": "3",
+    "title": "Maliyyə təhlili",
+    "list_1": {
+      "title": "Maliyyə təhlili şirkətin və ya təşkilatın maliyyə vəziyyətini qiymətləndirmək üçün:",
+      "list": [
+        "Onun maliyyə hesabatlarını",
+        "Mənfəət və zərər hesabatlarını",
+        "Pulun dövriyyəsi haqqında hesabatları yoxlamağı əhatə edir."
+      ]
+    },
+    "content_1": "Bu təhlilin məqsədi şirkətin gəlirliliyini, likvidliyini və ödəmə qabiliyyətini qiymətləndirmək, əsaslandırılmış investisiya və ya kredit qərarları qəbul etməkdir.",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "video": "<iframe class=\"rounded-xl\" width=\"100%\" height=\"100%\" src=\"https://app.powerbi.com/view?r=eyJrIjoiODNiZWQyMmUtMDk3OC00OTQ1LWIyYWYtZmY1MWNkZDhhMWYwIiwidCI6IjQ1ZTcyYmQ4LWVmYjctNGFlMS04M2IzLTI4NGFmNzBmMGM1OSIsImMiOjl9\" title=\"YouTube video player\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe>"
+  },
+  {
+    "parent_id": 4,
+    "tab": "4",
+    "title": "Maliyyə təhlili",
+    "list_1": {
+      "title": "Maliyyə təhlili şirkətin və ya təşkilatın maliyyə vəziyyətini qiymətləndirmək üçün:",
+      "list": [
+        "Onun maliyyə hesabatlarını",
+        "Mənfəət və zərər hesabatlarını",
+        "Pulun dövriyyəsi haqqında hesabatları yoxlamağı əhatə edir."
+      ]
+    },
+    "content_1": "Bu təhlilin məqsədi şirkətin gəlirliliyini, likvidliyini və ödəmə qabiliyyətini qiymətləndirmək, əsaslandırılmış investisiya və ya kredit qərarları qəbul etməkdir.",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "video": "<iframe class=\"rounded-xl\" width=\"100%\" height=\"100%\" src=\"https://app.powerbi.com/view?r=eyJrIjoiODNiZWQyMmUtMDk3OC00OTQ1LWIyYWYtZmY1MWNkZDhhMWYwIiwidCI6IjQ1ZTcyYmQ4LWVmYjctNGFlMS04M2IzLTI4NGFmNzBmMGM1OSIsImMiOjl9\" title=\"YouTube video player\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe>"
+  },
+  {
+    "parent_id": 4,
+    "tab": "5",
+    "title": "Maliyyə təhlili",
+    "list_1": {
+      "title": "Maliyyə təhlili şirkətin və ya təşkilatın maliyyə vəziyyətini qiymətləndirmək üçün:",
+      "list": [
+        "Onun maliyyə hesabatlarını",
+        "Mənfəət və zərər hesabatlarını",
+        "Pulun dövriyyəsi haqqında hesabatları yoxlamağı əhatə edir."
+      ]
+    },
+    "content_1": "Bu təhlilin məqsədi şirkətin gəlirliliyini, likvidliyini və ödəmə qabiliyyətini qiymətləndirmək, əsaslandırılmış investisiya və ya kredit qərarları qəbul etməkdir.",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "video": "<iframe class=\"rounded-xl\" width=\"100%\" height=\"100%\" src=\"https://app.powerbi.com/view?r=eyJrIjoiODNiZWQyMmUtMDk3OC00OTQ1LWIyYWYtZmY1MWNkZDhhMWYwIiwidCI6IjQ1ZTcyYmQ4LWVmYjctNGFlMS04M2IzLTI4NGFmNzBmMGM1OSIsImMiOjl9\" title=\"YouTube video player\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe>"
+  },
+  {
+    "parent_id": 4,
+    "tab": "6",
+    "title": "Maliyyə təhlili",
+    "list_1": {
+      "title": "Maliyyə təhlili şirkətin və ya təşkilatın maliyyə vəziyyətini qiymətləndirmək üçün:",
+      "list": [
+        "Onun maliyyə hesabatlarını",
+        "Mənfəət və zərər hesabatlarını",
+        "Pulun dövriyyəsi haqqında hesabatları yoxlamağı əhatə edir."
+      ]
+    },
+    "content_1": "Bu təhlilin məqsədi şirkətin gəlirliliyini, likvidliyini və ödəmə qabiliyyətini qiymətləndirmək, əsaslandırılmış investisiya və ya kredit qərarları qəbul etməkdir.",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "video": "<iframe class=\"rounded-xl\" width=\"100%\" height=\"100%\" src=\"https://app.powerbi.com/view?r=eyJrIjoiODNiZWQyMmUtMDk3OC00OTQ1LWIyYWYtZmY1MWNkZDhhMWYwIiwidCI6IjQ1ZTcyYmQ4LWVmYjctNGFlMS04M2IzLTI4NGFmNzBmMGM1OSIsImMiOjl9\" title=\"YouTube video player\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe>"
+  },
+  {
+    "parent_id": 4,
+    "tab": "7",
+    "title": "Maliyyə təhlili",
+    "list_1": {
+      "title": "Maliyyə təhlili şirkətin və ya təşkilatın maliyyə vəziyyətini qiymətləndirmək üçün:",
+      "list": [
+        "Onun maliyyə hesabatlarını",
+        "Mənfəət və zərər hesabatlarını",
+        "Pulun dövriyyəsi haqqında hesabatları yoxlamağı əhatə edir."
+      ]
+    },
+    "content_1": "Bu təhlilin məqsədi şirkətin gəlirliliyini, likvidliyini və ödəmə qabiliyyətini qiymətləndirmək, əsaslandırılmış investisiya və ya kredit qərarları qəbul etməkdir.",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "video": "<iframe class=\"rounded-xl\" width=\"100%\" height=\"100%\" src=\"https://app.powerbi.com/view?r=eyJrIjoiODNiZWQyMmUtMDk3OC00OTQ1LWIyYWYtZmY1MWNkZDhhMWYwIiwidCI6IjQ1ZTcyYmQ4LWVmYjctNGFlMS04M2IzLTI4NGFmNzBmMGM1OSIsImMiOjl9\" title=\"YouTube video player\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe>"
+  },
+  {
+    "parent_id": 4,
+    "tab": "8",
+    "title": "Maliyyə təhlili",
+    "list_1": {
+      "title": "Maliyyə təhlili şirkətin və ya təşkilatın maliyyə vəziyyətini qiymətləndirmək üçün:",
+      "list": [
+        "Onun maliyyə hesabatlarını",
+        "Mənfəət və zərər hesabatlarını",
+        "Pulun dövriyyəsi haqqında hesabatları yoxlamağı əhatə edir."
+      ]
+    },
+    "content_1": "Bu təhlilin məqsədi şirkətin gəlirliliyini, likvidliyini və ödəmə qabiliyyətini qiymətləndirmək, əsaslandırılmış investisiya və ya kredit qərarları qəbul etməkdir.",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "video": "<iframe class=\"rounded-xl\" width=\"100%\" height=\"100%\" src=\"https://app.powerbi.com/view?r=eyJrIjoiODNiZWQyMmUtMDk3OC00OTQ1LWIyYWYtZmY1MWNkZDhhMWYwIiwidCI6IjQ1ZTcyYmQ4LWVmYjctNGFlMS04M2IzLTI4NGFmNzBmMGM1OSIsImMiOjl9\" title=\"YouTube video player\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe>"
+  },
+  {
+    "parent_id": 4,
+    "tab": "9",
+    "title": "Maliyyə təhlili",
+    "list_1": {
+      "title": "Maliyyə təhlili şirkətin və ya təşkilatın maliyyə vəziyyətini qiymətləndirmək üçün:",
+      "list": [
+        "Onun maliyyə hesabatlarını",
+        "Mənfəət və zərər hesabatlarını",
+        "Pulun dövriyyəsi haqqında hesabatları yoxlamağı əhatə edir."
+      ]
+    },
+    "content_1": "Bu təhlilin məqsədi şirkətin gəlirliliyini, likvidliyini və ödəmə qabiliyyətini qiymətləndirmək, əsaslandırılmış investisiya və ya kredit qərarları qəbul etməkdir.",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "video": "<iframe class=\"rounded-xl\" width=\"100%\" height=\"100%\" src=\"https://app.powerbi.com/view?r=eyJrIjoiODNiZWQyMmUtMDk3OC00OTQ1LWIyYWYtZmY1MWNkZDhhMWYwIiwidCI6IjQ1ZTcyYmQ4LWVmYjctNGFlMS04M2IzLTI4NGFmNzBmMGM1OSIsImMiOjl9\" title=\"YouTube video player\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe>"
+  },
+  {
+    "parent_id": 4,
+    "tab": "10",
+    "title": "Maliyyə təhlili",
+    "list_1": {
+      "title": "Maliyyə təhlili şirkətin və ya təşkilatın maliyyə vəziyyətini qiymətləndirmək üçün:",
+      "list": [
+        "Onun maliyyə hesabatlarını",
+        "Mənfəət və zərər hesabatlarını",
+        "Pulun dövriyyəsi haqqında hesabatları yoxlamağı əhatə edir."
+      ]
+    },
+    "content_1": "Bu təhlilin məqsədi şirkətin gəlirliliyini, likvidliyini və ödəmə qabiliyyətini qiymətləndirmək, əsaslandırılmış investisiya və ya kredit qərarları qəbul etməkdir.",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "video": "<iframe class=\"rounded-xl\" width=\"100%\" height=\"100%\" src=\"https://app.powerbi.com/view?r=eyJrIjoiODNiZWQyMmUtMDk3OC00OTQ1LWIyYWYtZmY1MWNkZDhhMWYwIiwidCI6IjQ1ZTcyYmQ4LWVmYjctNGFlMS04M2IzLTI4NGFmNzBmMGM1OSIsImMiOjl9\" title=\"YouTube video player\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe>"
+  },
+  {
+    "parent_id": 4,
+    "tab": "11",
+    "title": "Maliyyə təhlili",
+    "list_1": {
+      "title": "Maliyyə təhlili şirkətin və ya təşkilatın maliyyə vəziyyətini qiymətləndirmək üçün:",
+      "list": [
+        "Onun maliyyə hesabatlarını",
+        "Mənfəət və zərər hesabatlarını",
+        "Pulun dövriyyəsi haqqında hesabatları yoxlamağı əhatə edir."
+      ]
+    },
+    "content_1": "Bu təhlilin məqsədi şirkətin gəlirliliyini, likvidliyini və ödəmə qabiliyyətini qiymətləndirmək, əsaslandırılmış investisiya və ya kredit qərarları qəbul etməkdir.",
+    "button_1": "Bizimlə əlaqə saxlayın",
+    "button_2": "İşlərimizə nəzər yetirin",
+    "video": "<iframe class=\"rounded-xl\" width=\"100%\" height=\"100%\" src=\"https://app.powerbi.com/view?r=eyJrIjoiODNiZWQyMmUtMDk3OC00OTQ1LWIyYWYtZmY1MWNkZDhhMWYwIiwidCI6IjQ1ZTcyYmQ4LWVmYjctNGFlMS04M2IzLTI4NGFmNzBmMGM1OSIsImMiOjl9\" title=\"YouTube video player\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe>"
+  }
+]

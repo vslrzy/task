@@ -6,7 +6,7 @@ export default function Dropdown({ data, setDropdown, ref }) {
   return (
     <div
       ref={ref}
-      className="absolute right-0 top-10 flex flex-col gap-1 bg-white rounded-lg p-1 z-50 border border-gray-200"
+      className="absolute right-0 top-12 1000:top-10 flex flex-col gap-1 bg-white rounded-lg p-1 z-50 border border-gray-200"
     >
       {data.heading && (
         <div className="flex flex-col gap-1 mb-3">
