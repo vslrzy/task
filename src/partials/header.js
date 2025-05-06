@@ -143,7 +143,7 @@ export default function Header() {
             button={{
               background: "bg-eee 1000:bg-ggg",
               icon: langIcon,
-              href: "/",
+              href: "",
               style: "p-2.5 1000:p-1.5 rounded-lg ml-3",
             }}
             onClick={() => setDropdownState(!dropdownState)}

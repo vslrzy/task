@@ -5,123 +5,134 @@ import { useEffect, useState } from "react";
 import jsonData from "../../public/services.json";
 import Button from "@/components/button";
 import Image from "next/image";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 
 export default function Services() {
   // Menu links
   const menuLinks = [
     {
       title: "Proqram Təminatı",
-      href: "?id=1",
+      id: 1,
       children: [
         {
           title: "Proqram Təminatı",
-          href: "?id=1&tab=4",
+          id: 1,
+          tab: 4,
         },
         {
           title: "Sürətli Axtarış Sistemi",
-          href: "?id=1&tab=1",
+          id: 1,
+          tab: 1,
         },
         {
           title: "CRM və ERP",
-          href: "?id=1&tab=2",
+          id: 1,
+          tab: 2,
         },
         {
           title: "Mobil tətbiqlər",
-          href: "?id=1&tab=3",
+          id: 1,
+          tab: 3,
         },
       ],
     },
     {
       title: "Saytların yaradılması",
-      href: "?id=2",
+      id: 2,
     },
     {
       title: "Oyun Təminatı",
-      href: "?id=3",
+      id: 3,
       children: [
         {
           title: "Oyun Təminatı",
-          href: "?id=3&tab=1",
+          id: 3,
+          tab: 1,
         },
         {
           title: "Stend və VR oyunları",
-          href: "?id=3&tab=2",
+          id: 3,
+          tab: 2,
         },
         {
           title: "Veb oyunlar",
-          href: "?id=3&tab=3",
+          id: 3,
+          tab: 3,
         },
         {
           title: "VR simulyatorlar",
-          href: "?id=3&tab=4",
+          id: 3,
+          tab: 4,
         },
         {
           title: "Oyun monitoru kirayəsi",
-          href: "?id=3&tab=5",
+          id: 3,
+          tab: 5,
         },
       ],
     },
     {
       title: "Data analitikası",
-      href: "?id=4",
+      id: 4,
       children: [
         {
           title: "Data analitikası",
-          href: "?id=4&tab=1",
+          id: 4,
+          tab: 1,
         },
         {
           title: "Maliyyə təhlili",
-          href: "?id=4&tab=2",
+          id: 4,
+          tab: 2,
         },
         {
           title: "İnsan Resurslarının təhlili",
-          href: "?id=4&tab=3",
+          id: 4,
+          tab: 3,
         },
         {
           title: "Optimizasiya təhlili",
-          href: "?id=4&tab=4",
+          id: 4,
+          tab: 4,
         },
         {
           title: "Satınalma təhlili",
-          href: "?id=4&tab=5",
+          id: 4,
+          tab: 5,
         },
         {
           title: "Əsas Performans Göstəriciləri (KPI) təhlili",
-          href: "?id=4&tab=6",
+          id: 4,
+          tab: 6,
         },
         {
           title: "1C proqramı ilə inteqrasiya",
-          href: "?id=4&tab=7",
+          id: 4,
+          tab: 7,
         },
         {
           title: "SƏTƏM təhlili",
-          href: "?id=4&tab=8",
+          id: 4,
+          tab: 8,
         },
         {
           title: "Satış/KPI",
-          href: "?id=4&tab=9",
+          id: 4,
+          tab: 9,
         },
         {
           title: "Sosial Media",
-          href: "?id=4&tab=10",
+          id: 4,
+          tab: 10,
         },
         {
           title: "Restoranlar",
-          href: "?id=4&tab=11",
+          id: 4,
+          tab: 11,
         },
       ],
     },
   ];
-
-  // Accordion
-  const [accIndex, setAccIndex] = useState(null);
-  // Mini accordion
-  const [miniAccIndex, setMiniAccIndex] = useState(null);
-  //
-  const toggleAcc = (index) => {
-    setAccIndex(index);
-  };
 
   const toggleMiniAcc = (index) => {
     setMiniAccIndex(index === miniAccIndex ? null : index);
@@ -137,18 +148,11 @@ export default function Services() {
   const accIcon =
     '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.64592 1.64592C4.69236 1.59935 4.74754 1.56241 4.80828 1.5372C4.86903 1.512 4.93415 1.49902 4.99992 1.49902C5.06568 1.49902 5.13081 1.512 5.19155 1.5372C5.2523 1.56241 5.30747 1.59935 5.35392 1.64592L11.3539 7.64592C11.4005 7.69236 11.4374 7.74754 11.4626 7.80828C11.4878 7.86903 11.5008 7.93415 11.5008 7.99992C11.5008 8.06568 11.4878 8.13081 11.4626 8.19155C11.4374 8.2523 11.4005 8.30747 11.3539 8.35392L5.35392 14.3539C5.26003 14.4478 5.13269 14.5005 4.99992 14.5005C4.86714 14.5005 4.7398 14.4478 4.64592 14.3539C4.55203 14.26 4.49929 14.1327 4.49929 13.9999C4.49929 13.8671 4.55203 13.7398 4.64592 13.6459L10.2929 7.99992L4.64592 2.35392C4.59935 2.30747 4.56241 2.2523 4.5372 2.19155C4.512 2.13081 4.49902 2.06568 4.49902 1.99992C4.49902 1.93415 4.512 1.86903 4.5372 1.80828C4.56241 1.74754 4.59935 1.69236 4.64592 1.64592Z" fill="#1F2937"></path></svg>';
 
-  //
+  // Mini accordion
+  const [miniAccIndex, setMiniAccIndex] = useState(null);
+
   // Params
   const params = useSearchParams();
-  const router = useRouter();
-
-  // Querying for url
-  const handleTabClick = (tab) => {
-    const searchParams = new URLSearchParams();
-    searchParams.set("id", parentId);
-    searchParams.set("tab", tab);
-    router.replace(`?${searchParams.toString()}`, { scroll: false });
-  };
 
   // id and tab
   const paramId = params.get("id");
@@ -158,7 +162,6 @@ export default function Services() {
   const [activeId, setActiveId] = useState(null);
   const [activeTab, setActiveTab] = useState(null);
   const [currentPage, setCurrentPage] = useState();
-  console.log(currentPage);
 
   useEffect(() => {
     const firstParent = jsonData[0]?.parent_id;
@@ -220,7 +223,7 @@ export default function Services() {
               viewBox="0 0 500 500"
               width={100}
               height={200}
-              className="w-full h-full animate-spin group-hover:animate-none scale-125"
+              className="w-full h-full animate-spinner group-hover:animate-stop scale-125"
             >
               <defs>
                 <path
@@ -257,33 +260,32 @@ export default function Services() {
                   className="bg-eee rounded-xl w-full my-3 border-1 border-transparent hover:border-yellow"
                 >
                   <Link
-                    href={item.href}
+                    href={`?id=${item.id}`}
                     className={`text-xl 1280:text-2xl px-[35px] py-[17px] 1000:py-[24px] w-full flex justify-between items-center ${
-                      item.href == currentPage ? "active" : ""
+                      item.id == paramId ? "active" : ""
                     }`}
-                    onClick={() => {
-                      item.children && toggleAcc(index);
-                    }}
                     scroll={false}
                   >
                     <span className="menu-item">{item.title}</span>
                     {item.children && (
                       <span className="text-3xl">
-                        {accIndex === index ? "-" : "+"}
+                        {item.id == paramId ? "-" : "+"}
                       </span>
                     )}
                   </Link>
 
-                  {item.children && accIndex === index && (
+                  {item.children && item.id == paramId && (
                     <>
                       <div className="w-full h-[2px] bg-gray-300"></div>
                       <div className="sub-menu flex flex-col gap-3 py-6">
                         {item.children.map((child, childIndex) => (
                           <Link
-                            href={child.href}
+                            href={`?id=${item.id}&tab=${child.tab}`}
                             key={childIndex}
                             className={`text-xl px-[35px] text-gray-500 ${
-                              child.href == currentPage ? "active" : ""
+                              `?id=${item.id}&tab=${child.tab}` == currentPage
+                                ? "active"
+                                : ""
                             }`}
                             scroll={false}
                           >
@@ -393,7 +395,7 @@ export default function Services() {
                             {acc.title}
                           </span>
                           {miniAccIndex === index && (
-                            <span className="pl-9 text-gray-800">
+                            <span className="pl-9 text-gray-500">
                               {acc.body}
                             </span>
                           )}
@@ -421,10 +423,12 @@ export default function Services() {
                   )}
                   {/* video */}
                   {data.video && (
-                    <div
-                      className=" h-full w-full"
-                      dangerouslySetInnerHTML={{ __html: data.video }}
-                    />
+                    <iframe
+                      src={data.video}
+                      width={"100%"}
+                      height={"100%"}
+                      className="w-full h-[210px] 450:h-[300px] 760:h-[350px] 1000:h-[500px] rounded-xl"
+                    ></iframe>
                   )}
                   {/* sections */}
                   {data.sections && (
@@ -436,7 +440,7 @@ export default function Services() {
                         >
                           <div className=" p-6">
                             <p className="text-xl">{item.title}</p>
-                            <p className="text-[13px] 1000:text-[15px] text-gray-600 py-3">
+                            <p className="text-[13px] 1000:text-[15px] text-gray-600 pt-2">
                               {item.content}
                             </p>
                           </div>
@@ -445,7 +449,7 @@ export default function Services() {
                             height={356}
                             alt="image"
                             src={item.image}
-                            className="max-h-60 w-auto 1000:max-h-60 ml-auto bottom-0"
+                            className="max-h-60 w-auto 1000:max-h-50 ml-auto bottom-0"
                           />
                         </div>
                       ))}

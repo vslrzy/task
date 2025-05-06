@@ -86,9 +86,8 @@
 .animate-spinner {
   animation: spin 10s linear infinite;
 }
-
-.animate-stop {
-  animation: none;
+.group:hover .animate-spinner {
+  animation-play-state: paused;
 }
 
 /* Sidebar */
@@ -102,19 +101,6 @@
 .menu {
   position: sticky;
   top: 20px;
-}
-
-iframe.rounded-xl {
-  height: 500px;
-  @media (max-width: 1280px) {
-    height: 350px;
-  }
-  @media (max-width: 760px) {
-    height: 300px;
-  }
-  @media (max-width: 490px) {
-    height: 210px;
-  }
 }
 
 .nobreak {
