@@ -409,12 +409,12 @@ export default function Services() {
                       {data.specifications.map((item, index) => (
                         <div
                           key={index}
-                          className="bg-eee rounded-xl px-6 py-4 basis-[calc(50%-10px)] last:basis-1/1 flex justify-between items-center w-full"
+                          className="bg-eee rounded-xl px-6 py-4 basis-1/1 450:basis-[calc(50%-10px)] last:basis-1/1 flex justify-between items-center w-full"
                         >
-                          <span className="text-md text-gray-600">
+                          <span className="text-xs 760:text-md text-gray-600">
                             {item.title}
                           </span>
-                          <span className="text-lg text-dewi">
+                          <span className="text-sm 760:text-lg text-dewi text-right">
                             {item.value}
                           </span>
                         </div>
